@@ -25,7 +25,7 @@
 ## usersテーブル
 |Column|Type|Options|
 |------|----|-------|
-|user_id|integer|null: false, unique: true, foreign_key: true|
+
 |name|text|null: false, unique: true, foreign_key: true|
 |password|text|null: false, unique: true, foreign_key: true|
 |email|text|null: false, unique: true, foreign_key: true|
