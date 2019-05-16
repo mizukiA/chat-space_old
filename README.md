@@ -1,12 +1,12 @@
 ## usersテーブル
 |Column|Type|Options|
 |------|----|-------|
-|name|string|null: false, unique: true, index: true|
+|name|string|null: false, index: true, unique: true|
 
 ### Association
 - has_many :groups, through: :members
 - has_many :messages
-
+- has_many :members
 
 ## groupsテーブル
 |Column|Type|Options|
