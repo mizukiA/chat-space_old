@@ -1,9 +1,7 @@
 ## usersテーブル
 |Column|Type|Options|
 |------|----|-------|
-|name|text|null: false, unique: true, foreign_key: true|
-|password|text|null: false, unique: true, foreign_key: true|
-|email|text|null: false, unique: true, foreign_key: true|
+|name|string|null: false, unique: true, index: true|
 
 ### Association
 - has_many :groups, through: :members
